@@ -2,6 +2,7 @@ import React from 'react'
 import heroImage from '../assets/images/hero.png';
 import Destination from './Destination';
 import OurService from './OurService';
+import Testomonial from './Testomonial';
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       </div>
       <Destination/>
       <OurService/>
+      <Testomonial/>
     </>
   )
 }

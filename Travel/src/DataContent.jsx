@@ -4,6 +4,8 @@ import img3 from './assets/images/gal3.png';
 import img4 from './assets/images/gal4.jpg';
 import img5 from './assets/images/gal5.webp';
 import img6 from './assets/images/gal6.webp';
+import cust1 from './assets/images/me.png';
+import cust2 from './assets/images/me2.png';
 import {FaPlane,FaHotel,FaUmbrellaBeach,FaConciergeBell}  from 'react-icons/fa'
 const destination = [
     {
@@ -59,4 +61,25 @@ const service =[
         description:'Get Perssonalized Concierge Services for a seamless travel experiences.'
     }
 ];
-export{destination,service}
+const customer=[
+    {
+        name:'Merry Trust',
+        img:cust1,
+        text:'This Is travel agency provide excellent service and helped us plan the perfect vacation',
+        location:'U.S.A'
+
+    },
+    {
+        name:'John Doe',
+        img:cust2,
+        text:'Amazing Experience! The tour guides were knowledgeble and the destination were breath.',
+        location:'England'
+    },
+    {
+        name:'Steve Smith',
+        img:cust1,
+        text:'Great Customer service and fantastic travel package.',
+        location:'South Africa'
+    }
+];
+export{destination,service,customer}
