@@ -1,5 +1,7 @@
 import React from 'react'
 import heroImage from '../assets/images/hero.png';
+import Destination from './Destination';
+import OurService from './OurService';
 const Home = () => {
   return (
     <>
@@ -11,6 +13,8 @@ const Home = () => {
            
         </div>
       </div>
+      <Destination/>
+      <OurService/>
     </>
   )
 }
