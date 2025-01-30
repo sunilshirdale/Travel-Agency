@@ -3,6 +3,7 @@ import heroImage from '../assets/images/hero.png';
 import Destination from './Destination';
 import OurService from './OurService';
 import Testomonial from './Testomonial';
+import Footer from './Footer';
 const Home = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Home = () => {
       <Destination/>
       <OurService/>
       <Testomonial/>
+      <Footer />
     </>
   )
 }
