@@ -37,7 +37,7 @@ const Footer = () => {
                 </form>
               </div>
             </div>
-            <div className='flex justify-between border-t mt-8 pt-4 border-blue-700'>
+            <div className='flex justify-between border-t mt-8 pt-4 border-blue-500'>
               <p>@2025 Shlok Travel </p>
               <div className='flex space-x-4 mt-4 md:mt-0'>
                 <Link to="/contact"> Privacy Policy </Link>
